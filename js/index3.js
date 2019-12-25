@@ -8,7 +8,6 @@ $(document).ready(function() {
     	 var resscr = function() {
     	  document.body.style.overflow = 'scroll';
     	 }*/
-    /*$("#nav").hide();*/
     $("#header2 .head_right").click(
         function() {
             $("#nav").stop().fadeTo(800, 1);
