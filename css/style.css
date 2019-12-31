@@ -2802,6 +2802,11 @@
         .sidebar {
             display: none;
         }
+        .gb-nav .logo img.img2 {
+            opacity: 1;
+            -webkit-opacity: 1;
+            -moz-opacity: 1;
+        }
         /*导航*/
         .gb-nav,
         .gb-header {

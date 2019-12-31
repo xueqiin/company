@@ -2789,6 +2789,17 @@
             -webkit-opacity: 1;
             -moz-opacity: 1;
         }
+        .gb-nav {
+            background: #000;
+            opacity: 0.75;
+            -webkit-opacity: 0.75;
+            -moz-opacity: 0.75;
+        }
+        .gb-nav .logo img.img2 {
+            opacity: 1;
+            -webkit-opacity: 1;
+            -moz-opacity: 1;
+        }
         #metop {
             display: none !important;
         }
