@@ -2790,15 +2790,41 @@
             -moz-opacity: 1;
         }
         .gb-nav {
-            background: #000;
+            /*background: #000;
             opacity: 0.75;
             -webkit-opacity: 0.75;
-            -moz-opacity: 0.75;
+            -moz-opacity: 0.75;*/
         }
         .gb-nav .logo img.img2 {
             opacity: 1;
             -webkit-opacity: 1;
             -moz-opacity: 1;
+            width: 110px;
+        }
+        .gh{
+            margin-top: 12px;
+            height: 23px;
+            width: 23px;
+        }
+        .gh a {
+            height: 3px;
+            margin-top: 0px;
+        }
+        .gh a:after, .gh a:before {
+            height: 3px;
+        }
+        .gh a:before {
+            top: -6px;
+        }
+        .gh a:after {
+            top: 6px;
+        }
+        .header .logo, .gb-nav .logo {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .gb-header, .gb-nav {
+            height: 53px;
         }
         #metop {
             display: none !important;
@@ -2813,6 +2839,9 @@
         .nav_main ul li {
             height: 50px;
         }
+        /*.gh a {
+            background-color: #fff;
+        }*/
         /*菜单结束*/
         /*banner*/
         /*==========================================================================================*/

@@ -584,6 +584,9 @@ div#maincontent div.element {
 /*自适应*/
 
 @media screen and (max-width: 480px) and (max-width: 650px) and (max-width: 760px) {
+    #maincontent {
+        padding-top: 53px;
+    }
     #maincontent .n1,
     #maincontent .n2,
     #maincontent .n3,
